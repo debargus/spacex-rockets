@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Share+Tech+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-slate-900 text-neutral-50;
+        font-family: 'Share Tech Mono', monospace;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: 'Courier Prime', monospace;
+    }
+}
+
+@layer components {
+    .container {
+        @apply px-4 sm:px-8 mx-auto max-w-[60rem];
+    }
+}
