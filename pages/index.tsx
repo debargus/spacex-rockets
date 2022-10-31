@@ -55,6 +55,21 @@ export default function IndexPage() {
         <>
             <Head>
                 <title>SpaceX Rockets</title>
+                <meta property='og:title' content='SpaceX Rockets' />
+                <meta property='og:site_name' content='SpaceX Rockets' />
+                <meta
+                    property='og:url'
+                    content='https://spacex-rockets.netlify.app/'
+                />
+                <meta
+                    property='og:description'
+                    content='SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionise space technology, with the ultimate goal of enabling people to live on other'
+                />
+                <meta property='og:type' content='website' />
+                <meta
+                    property='og:image'
+                    content='https://spacex-rockets.netlify.app/og-main.png'
+                />
             </Head>
             <div>
                 <Header />
